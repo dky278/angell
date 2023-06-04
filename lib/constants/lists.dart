@@ -1,10 +1,22 @@
-import 'package:flutter/material.dart';
+List efg = [gender, hobbies, activities, explore, subjects];
 
 List gender = [
   [false, "Male",],
   [false, "Female"],
   [false, "Prefer not to say"],
 ];
+
+List age = [
+  [false, '0-2 years'],
+  [false, '3-5 years'],
+  [false, '6-8 years'],
+  [false, '9-12 years'],
+  [false, '13-15 years'],
+  [false, '16-18 years'],
+];
+
+
+
 
 List hobbies = [
   [false, "Art and Creativity",],
