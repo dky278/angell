@@ -115,7 +115,9 @@ class _QuestionairePageState extends State<QuestionairePage> {
                             ),
                           ],
                           color: Colors.white,
-                          borderRadius: BorderRadius.circular(20.0)),
+                          borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(30),
+                              bottomRight: Radius.circular(30))),
                       child: Column(
                         children: [
                           Padding(
@@ -167,7 +169,7 @@ class _QuestionairePageState extends State<QuestionairePage> {
                     ),
                   ),
                   SizedBox(
-                    height: 30,
+                    height: 55,
                   ),
                   Padding(
                     padding: EdgeInsets.only(left: 35, right: 35),
@@ -184,7 +186,9 @@ class _QuestionairePageState extends State<QuestionairePage> {
                             ),
                           ],
                           color: Colors.white,
-                          borderRadius: BorderRadius.circular(20.0)),
+                          borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(30),
+                              bottomRight: Radius.circular(30))),
                       child: Column(
                         children: [
                           Padding(
@@ -235,6 +239,7 @@ class _QuestionairePageState extends State<QuestionairePage> {
                       ),
                     ),
                   ),
+                  SizedBox(height: 25,),
                   Padding(
                     padding: EdgeInsets.all(30),
                     child: Container(
@@ -250,7 +255,9 @@ class _QuestionairePageState extends State<QuestionairePage> {
                             ),
                           ],
                           color: Colors.white,
-                          borderRadius: BorderRadius.circular(20.0)),
+                          borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(30),
+                              bottomRight: Radius.circular(30))),
                       child: Column(
                         children: [
                           Padding(
@@ -288,7 +295,9 @@ class _QuestionairePageState extends State<QuestionairePage> {
                             ),
                           ],
                           color: Colors.white,
-                          borderRadius: BorderRadius.circular(20.0)),
+                          borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(30),
+                              bottomRight: Radius.circular(30))),
                       child: Column(
                         children: [
                           Padding(

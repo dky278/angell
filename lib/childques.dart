@@ -1,3 +1,4 @@
+import 'package:angelll/accountpage.dart';
 import 'package:angelll/constants/lists.dart';
 
 import 'package:flutter/material.dart';
@@ -341,7 +342,9 @@ class _ChildQuesState extends State<ChildQues> {
                             ),
                           ],
                           color: Colors.white,
-                          borderRadius: BorderRadius.circular(20.0)),
+                          borderRadius: BorderRadius.only(
+                              bottomLeft: Radius.circular(30),
+                              bottomRight: Radius.circular(30))),
                       child: Column(
                         children: [
                           Padding(
@@ -393,7 +396,7 @@ class _ChildQuesState extends State<ChildQues> {
                               Navigator.push(
                                 context,
                                 MaterialPageRoute(
-                                    builder: (context) => ChildQues()),
+                                    builder: (context) => AccountPage()),
                               );
                             },
                             style: ElevatedButton.styleFrom(
