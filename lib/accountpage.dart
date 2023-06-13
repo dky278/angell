@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+<<<<<<< HEAD
+=======
+import 'childques.dart';
+import 'constants/lists.dart';
+
+>>>>>>> origin/main
 class AccountPage extends StatefulWidget {
   const AccountPage({Key? key}) : super(key: key);
 
